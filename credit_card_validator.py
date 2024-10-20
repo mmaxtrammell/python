@@ -25,7 +25,7 @@ n = len(weight_array)
 for i in range(n):
     product = digit_array[i] * weight_array[i]
     if len(str(product)) >= 2:
-        print(str(product) + " is over 2 digits, so add digit sum the list: ")
+        print(str(product) + " is over 2 digits, so add digit sum to the list: ")
         product = sum_of_digits(product)
         print(product)
         product_list.append(product)
